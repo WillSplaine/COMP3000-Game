@@ -56,10 +56,10 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\PlayerCam.cs" />
+    <Compile Include="Assets\Scripts\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\GrapplingGun.cs" />
+    <Compile Include="Assets\Scripts\PlayerCam.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -690,6 +690,10 @@
       <Project>{86D4755F-5CEC-9BB4-CFF1-41DB8CAD4A63}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
+      <Project>{FBB686A9-5C35-F16B-AB07-71D73167BC11}</Project>
+      <Name>Unity.Postprocessing.Runtime</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
       <Project>{2CD0C4DC-9691-6470-4892-0F053FCEE9A0}</Project>
       <Name>Unity.VisualScripting.Shared.Editor</Name>
@@ -738,9 +742,9 @@
       <Project>{DCEA061E-3CE2-DC5E-A344-D1924CB80B9B}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
-      <Project>{A6503458-BC1A-FC3E-DE9F-320CB2945529}</Project>
-      <Name>Unity.VisualScripting.Flow</Name>
+    <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
+      <Project>{A0D4244E-4CAD-A666-BDA8-A37B1C87F217}</Project>
+      <Name>Unity.Postprocessing.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{067C016A-9BDF-7DCE-2E59-C851BCB7CD88}</Project>
@@ -762,6 +766,10 @@
       <Project>{03AC2CA7-AF01-FE34-84B6-7CE92CF47147}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
+      <Project>{A6503458-BC1A-FC3E-DE9F-320CB2945529}</Project>
+      <Name>Unity.VisualScripting.Flow</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
       <Project>{D9EBFB72-5975-0825-D3CD-8D7E30A025A5}</Project>
       <Name>Unity.VisualScripting.State</Name>
@@ -773,14 +781,6 @@
     <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
       <Project>{1C9AF978-C62A-1EAE-5ADE-70846941A314}</Project>
       <Name>Unity.EditorCoroutines.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
-      <Project>{A0D4244E-4CAD-A666-BDA8-A37B1C87F217}</Project>
-      <Name>Unity.Postprocessing.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
-      <Project>{FBB686A9-5C35-F16B-AB07-71D73167BC11}</Project>
-      <Name>Unity.Postprocessing.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
