@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\GrapplingGun.cs" />
     <Compile Include="Assets\Scripts\PlayerCam.cs" />
+    <Compile Include="Assets\Scripts\LaserFire.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
