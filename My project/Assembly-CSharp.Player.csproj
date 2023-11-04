@@ -61,6 +61,7 @@
     <Compile Include="Assets\Scripts\GrapplingGun.cs" />
     <Compile Include="Assets\Scripts\LaserFire.cs" />
     <Compile Include="Assets\Scripts\PlayerCam.cs" />
+    <Compile Include="Assets\Scripts\BouncePad.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
