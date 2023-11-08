@@ -62,6 +62,7 @@
     <Compile Include="Assets\Scripts\LaserFire.cs" />
     <Compile Include="Assets\Scripts\BouncePad.cs" />
     <Compile Include="Assets\Scripts\PlayerCam.cs" />
+    <Compile Include="Assets\Scripts\BatteryUI.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
