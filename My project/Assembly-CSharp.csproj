@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\BouncePad.cs" />
     <Compile Include="Assets\Scripts\PlayerCam.cs" />
     <Compile Include="Assets\Scripts\BatteryUI.cs" />
+    <Compile Include="Assets\Charger.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

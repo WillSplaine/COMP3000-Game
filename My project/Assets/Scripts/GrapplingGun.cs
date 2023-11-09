@@ -1,5 +1,6 @@
 using UnityEngine;
 
+
 public class GrapplingGun : MonoBehaviour
 {
     private LineRenderer lr;
@@ -8,11 +9,14 @@ public class GrapplingGun : MonoBehaviour
     public Transform gunTip, camera, player;
     private float maxDistance = 100f;
     private SpringJoint joint;
+    private BatteryUI batt;
+
 
     private Vector3 currentGrapplePosition;
 
     void Awake()
     {
+        batt = FindObjectOfType<BatteryUI>();
         lr = GetComponent<LineRenderer>();
     }
 
@@ -21,6 +25,7 @@ public class GrapplingGun : MonoBehaviour
         if (Input.GetMouseButtonDown(1))
         {
             StartGrapple();
+            
         }
         else if (Input.GetMouseButtonUp(1))
         {
@@ -52,6 +57,9 @@ public class GrapplingGun : MonoBehaviour
 
             lr.positionCount = 2;
             currentGrapplePosition = gunTip.position;
+            batt.LoseCharge(3);
+
+           
         }
     }
 
@@ -59,9 +67,10 @@ public class GrapplingGun : MonoBehaviour
     {
         lr.positionCount = 0;
         Destroy(joint);
+        
     }
 
-    void DrawRope()
+    public void DrawRope()
     {
         if (!joint)
         {

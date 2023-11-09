@@ -3,53 +3,53 @@ using UnityEngine.UI;
 
 public class BatteryUI : MonoBehaviour
 {
-    public int maxHealth = 100;
-    public int currentHealth = 100;
-    public Image[] healthSegments = new Image[10];
+    public int maxCharge = 100;
+    public int currentCharge = 100;
+    public Image[] chargeSegments = new Image[10];
+    public GrapplingGun Grappling;
+
 
     private void Start()
     {
-        UpdateHealthBar();
+        UpdateChargeBar();
     }
 
-    private void UpdateHealthBar()
+    private void UpdateChargeBar()
     {
-        int segmentSize = maxHealth / healthSegments.Length;
+        int segmentSize = maxCharge / chargeSegments.Length;
 
-        for (int i = 0; i < healthSegments.Length; i++)
+        for (int i = 0; i < chargeSegments.Length; i++)
         {
-            if (currentHealth >= (i + 1) * segmentSize)
+            if (currentCharge >= (i + 1) * segmentSize)
             {
-                healthSegments[i].enabled = true;
+                chargeSegments[i].enabled = true;
             }
             else
             {
-                healthSegments[i].enabled = false;
+                chargeSegments[i].enabled = false;
             }
         }
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown("p"))
+       
+       // if (Input.GetKeyDown(KeyCode.Mouse1))
         {
-            GainHealth(10);
+          //  LoseHealth(3);
         }
-        if (Input.GetKeyDown("i"))
-        {
-            LoseHealth(10);
-        }
+        
     }
 
-    public void GainHealth(int amount)
+    public void GainCharge(int amount)
     {
-        currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
-        UpdateHealthBar();
+        currentCharge = Mathf.Clamp(currentCharge + amount, 0, maxCharge);
+        UpdateChargeBar();
     }
 
-    public void LoseHealth(int amount)
+    public void LoseCharge(int amount)
     {
-        currentHealth = Mathf.Clamp(currentHealth - amount, 0, maxHealth);
-        UpdateHealthBar();
+        currentCharge = Mathf.Clamp(currentCharge - amount, 0, maxCharge);
+        UpdateChargeBar();
     }
 }

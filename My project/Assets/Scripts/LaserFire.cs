@@ -7,6 +7,9 @@ public class LaserFire : MonoBehaviour
     public LayerMask targetLayer; // The layer(s) to detect the target.
     public TrailRenderer trailRenderer; // Trail Renderer component to visualize the laser trail.
 
+
+    public BatteryUI batteryUI;
+
     public float trailStartDistance = 0.5f; // Distance from the gun tip to start the trail.
     public float trailMaxLength = 10f; // Maximum length of the trail.
 
@@ -15,6 +18,7 @@ public class LaserFire : MonoBehaviour
         // Initialize the Trail Renderer component.
         trailRenderer = GetComponent<TrailRenderer>();
         trailRenderer.enabled = false;
+        BatteryUI batteryUI = GetComponent<BatteryUI>();
     }
 
     void Update()
@@ -22,6 +26,7 @@ public class LaserFire : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             Shoot();
+          batteryUI.LoseCharge(2);
         }
     }
 
