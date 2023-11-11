@@ -8,6 +8,9 @@ public class Enemy : MonoBehaviour
     public Transform[] waypoints;  // An array of waypoints for the enemy to follow.
     private int currentWaypointIndex = 0; // The index of the current waypoint.
 
+
+
+    public int health = 30;
     public float playerDetectRange = 5f;
     public Transform player;
 
@@ -19,7 +22,19 @@ public class Enemy : MonoBehaviour
             transform.position = waypoints[0].position;
         }
     }
+    public void GetShot(int amount)
+    {
+        health -= amount;
+        if (health <= 0f)
+        {
+            Elim();
+        }
+    }
 
+    void Elim()
+    {
+        Destroy(gameObject);
+    }
     private void Update()
     {
         if (waypoints.Length == 0)

@@ -58,13 +58,13 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\CameraMovement.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\GrapplingGun.cs" />
     <Compile Include="Assets\Scripts\LaserFire.cs" />
     <Compile Include="Assets\Scripts\BouncePad.cs" />
     <Compile Include="Assets\Scripts\PlayerCam.cs" />
     <Compile Include="Assets\Scripts\BatteryUI.cs" />
     <Compile Include="Assets\Charger.cs" />
-    <Compile Include="Assets\Scripts\Enemy.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
