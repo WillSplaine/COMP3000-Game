@@ -15,7 +15,7 @@ S:/3rd Year CW/Comp3000 - Final Year Project/COMP3000-Game/My project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52351
+58302
 Successfully changed project path to: S:/3rd Year CW/Comp3000 - Final Year Project/COMP3000-Game/My project
 S:/3rd Year CW/Comp3000 - Final Year Project/COMP3000-Game/My project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ S:/3rd Year CW/Comp3000 - Final Year Project/COMP3000-Game/My project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22316] Host "[IP] 10.10.15.183 [Port] 0 [Flags] 2 [Guid] 1231169068 [EditorId] 1231169068 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-I9H9PA6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [29532] Host "[IP] 10.10.15.183 [Port] 0 [Flags] 2 [Guid] 776276185 [EditorId] 776276185 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-I9H9PA6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [22316] Host "[IP] 10.10.15.183 [Port] 0 [Flags] 2 [Guid] 1231169068 [EditorId] 1231169068 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-I9H9PA6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [29532] Host "[IP] 10.10.15.183 [Port] 0 [Flags] 2 [Guid] 776276185 [EditorId] 776276185 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-I9H9PA6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 66.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 87.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -67,92 +67,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004749 seconds.
+Registered in 0.004992 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 64.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 64.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.464 seconds
+- Completed reload, in  0.523 seconds
 Domain Reload Profiling:
-	ReloadAssembly (464ms)
-		BeginReloadAssembly (52ms)
+	ReloadAssembly (523ms)
+		BeginReloadAssembly (108ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (334ms)
-			LoadAssemblies (50ms)
+		EndReloadAssembly (329ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (71ms)
+			SetupTypeCache (73ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (207ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (202ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (65ms)
+				RefreshPlugins (64ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (99ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				ProcessInitializeOnLoadAttributes (97ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003157 seconds.
+Registered in 0.004019 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image S:\3rd Year CW\Comp3000 - Final Year Project\COMP3000-Game\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image S:\3rd Year CW\Comp3000 - Final Year Project\COMP3000-Game\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.714 seconds
+- Completed reload, in  0.710 seconds
 Domain Reload Profiling:
-	ReloadAssembly (715ms)
-		BeginReloadAssembly (81ms)
+	ReloadAssembly (711ms)
+		BeginReloadAssembly (77ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (553ms)
-			LoadAssemblies (61ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (554ms)
+			LoadAssemblies (60ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (174ms)
+			SetupTypeCache (169ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (257ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (261ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (168ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (167ms)
 				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3565 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (1.4 MB). Loaded Objects now: 4020.
-Memory consumption went from 138.0 MB to 136.6 MB.
-Total: 2.997200 ms (FindLiveObjects: 0.251700 ms CreateObjectMapping: 0.138500 ms MarkObjects: 2.294200 ms  DeleteObjects: 0.311900 ms)
+Unloading 3613 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (1.4 MB). Loaded Objects now: 4068.
+Memory consumption went from 141.4 MB to 140.0 MB.
+Total: 3.354700 ms (FindLiveObjects: 0.267600 ms CreateObjectMapping: 0.098000 ms MarkObjects: 2.662700 ms  DeleteObjects: 0.325300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,724 +166,22 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 14420.601079 seconds.
-  path: Assets/AlienCharv2_Collection.controller
-  artifactKey: Guid(2c42b00390a8ac84fadf0fcd3918f918) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/AlienCharv2_Collection.controller using Guid(2c42b00390a8ac84fadf0fcd3918f918) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '19b040182119160723a8b9e2d74c0f9f') in 0.123935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Scripts/Enemy.cs
-  artifactKey: Guid(29da31c62806c6549b783c04a9a0ffc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scripts/Enemy.cs using Guid(29da31c62806c6549b783c04a9a0ffc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '812ee4bf29214d6a36d7c263a0c82928') in 0.022522 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_34.mat
-  artifactKey: Guid(4a2abd4f67aefc24b9c6cca2d197adc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_34.mat using Guid(4a2abd4f67aefc24b9c6cca2d197adc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '779c603e33b5e60b63386a95905cbab6') in 0.031768 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Scripts/CameraMovement.cs
-  artifactKey: Guid(9fc176b163a7c3446a07d8947526ca3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scripts/CameraMovement.cs using Guid(9fc176b163a7c3446a07d8947526ca3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8d6ec05e05da9e7efc5a2ff5ffbef7d4') in 0.009572 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_39.mat
-  artifactKey: Guid(89b53b6902b0ec14baa1599e1c68d643) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_39.mat using Guid(89b53b6902b0ec14baa1599e1c68d643) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c606f71283e5f18729650230a6bae1b9') in 0.036068 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_36.mat
-  artifactKey: Guid(9b8a78dbb8e688e468daf2da07cf93b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_36.mat using Guid(9b8a78dbb8e688e468daf2da07cf93b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b0606e563d1de9ce2f6600afcb735626') in 0.039618 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_40.mat
-  artifactKey: Guid(4aac98aef254ecf429643db51adb8f72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_40.mat using Guid(4aac98aef254ecf429643db51adb8f72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '386d7287f1e52770ad3bf251a2ae3c9e') in 0.046209 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/EnemyCharacterModel_Collection.fbx
-  artifactKey: Guid(fc1dc70f2e0a8564c9ef4f6002def4f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/EnemyCharacterModel_Collection.fbx using Guid(fc1dc70f2e0a8564c9ef4f6002def4f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e8f33174aa59b0d7e07bf214e04cb8f3') in 0.077094 seconds 
+  Time since last request: 11382.724013 seconds.
+  path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GaussianDownsample.compute
+  artifactKey: Guid(6dba4103d23a7904fbc49099355aff3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GaussianDownsample.compute using Guid(6dba4103d23a7904fbc49099355aff3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d197400692567c42d613649b2ac2eef') in 0.068932 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_11.mat
-  artifactKey: Guid(bacc7ee8fd0869d45be470f049e53d8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_11.mat using Guid(bacc7ee8fd0869d45be470f049e53d8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1a873dfbd98087eff42cdec07f2894b1') in 0.032941 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Materials/Ch30_1002_Glossiness 1.png
-  artifactKey: Guid(3ebd539f5c21306478e0e831ba0f1427) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/Ch30_1002_Glossiness 1.png using Guid(3ebd539f5c21306478e0e831ba0f1427) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6a9ec3c750c1df4d0fc5f5f460b3574a') in 0.062323 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Scenes/SampleScene_Profiles/Main Camera Profile.asset
-  artifactKey: Guid(5408604753a8a0440b25f7af46b0d4c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/SampleScene_Profiles/Main Camera Profile.asset using Guid(5408604753a8a0440b25f7af46b0d4c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '294f58837219dcb5500f1826c4156a01') in 0.035921 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_12_Specular.tga
-  artifactKey: Guid(d72611aa5c8088f4eb634a6f1178acd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_12_Specular.tga using Guid(d72611aa5c8088f4eb634a6f1178acd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c8d9fa6d42413d3dcd5752b810cf3607') in 0.020307 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_09_Diffuse.tga
-  artifactKey: Guid(9b7130db76e1f4547a5ef5a01d08d96f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_09_Diffuse.tga using Guid(9b7130db76e1f4547a5ef5a01d08d96f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '700ac917f63b7083e6c0159f370f9c34') in 0.014741 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_07_Diffuse.tga
-  artifactKey: Guid(d0e1b4cdfbad6b348a3f788a993a77d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_07_Diffuse.tga using Guid(d0e1b4cdfbad6b348a3f788a993a77d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'bb3554f0e7649edad6ec8643a099160e') in 0.021676 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_03_Specular.tga
-  artifactKey: Guid(d12195ae4fdaf7a4bbf1c1cc203a8dd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_03_Specular.tga using Guid(d12195ae4fdaf7a4bbf1c1cc203a8dd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5f402a705ab1f376d3fabf12276bf68f') in 0.018602 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Scripts/GrapplingGun.cs
-  artifactKey: Guid(a400a197c3bc4714fa3b3d18f61289f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scripts/GrapplingGun.cs using Guid(a400a197c3bc4714fa3b3d18f61289f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '554497e715e0252febb697651abfc8e1') in 0.010570 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_08.mat
-  artifactKey: Guid(ee47644675828514c8b999edaa99ee59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_08.mat using Guid(ee47644675828514c8b999edaa99ee59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5a75f117cf9a5f22f47cd1680fa871f9') in 0.013953 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Scripts/BatteryUI.cs
-  artifactKey: Guid(2f4ded34e786e8047ba8aaf423bdfc55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scripts/BatteryUI.cs using Guid(2f4ded34e786e8047ba8aaf423bdfc55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9e48a94987c9d5fc837adaa7e2485b8b') in 0.008984 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_04_Specular.tga
-  artifactKey: Guid(5ac21282e11c3a6439d85e1da57f5989) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_04_Specular.tga using Guid(5ac21282e11c3a6439d85e1da57f5989) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '69a6e55dc3d44b6949bf77305a22f0b2') in 0.019666 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_25.mat
-  artifactKey: Guid(66bb025986bd66c479f0fe7e007798b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_25.mat using Guid(66bb025986bd66c479f0fe7e007798b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0dec9d2bace0ff48ab25e76a43fc2f9f') in 0.031037 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_14.mat
-  artifactKey: Guid(6bded294da3a9cf47bdb6b9259f86b49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_14.mat using Guid(6bded294da3a9cf47bdb6b9259f86b49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ca09bdba5d541b7983ef472782980238') in 0.031241 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_11_Specular.tga
-  artifactKey: Guid(26a5a819f3afd984ea4658c19842fc91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_11_Specular.tga using Guid(26a5a819f3afd984ea4658c19842fc91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6933bfb990e251f265b92e97928bc9d3') in 0.014757 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_48.mat
-  artifactKey: Guid(a7a35a310f4bf234099e346d4c063b79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_48.mat using Guid(a7a35a310f4bf234099e346d4c063b79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '491dfb944a4b203879f9513b22f2468b') in 0.030598 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Materials/Ch30_1001_Glossiness 1.png
-  artifactKey: Guid(13477564690400048a4fa105694856f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/Ch30_1001_Glossiness 1.png using Guid(13477564690400048a4fa105694856f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '62c97d56e992b7866aab1261c1614b8c') in 0.021752 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_30.mat
-  artifactKey: Guid(a6d73f9e47bd28d438e0eaa89328614f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_30.mat using Guid(a6d73f9e47bd28d438e0eaa89328614f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd9eddaeb71b29c09e0db4daa0e50d30b') in 0.032891 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_04.mat
-  artifactKey: Guid(cb339679d860eb649a63a72e8aaa0ee0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_04.mat using Guid(cb339679d860eb649a63a72e8aaa0ee0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '27fc4a32a66c21541b5d3336bc0d0e52') in 0.026175 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_23.mat
-  artifactKey: Guid(294b00804ed584d4ab6b6ea04153afdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_23.mat using Guid(294b00804ed584d4ab6b6ea04153afdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '216b5fa1e7a8890bd5befcc17a6884f1') in 0.012854 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Scripts/LaserFire.cs
-  artifactKey: Guid(53b89c068d9727e47aa899e360c1da38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scripts/LaserFire.cs using Guid(53b89c068d9727e47aa899e360c1da38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'cebb56aa242c84d035c2166d31044b67') in 0.010164 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Models/character (1).fbx
-  artifactKey: Guid(93e85d1519032bb4e9d82b541a289a51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Models/character (1).fbx using Guid(93e85d1519032bb4e9d82b541a289a51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7d59d4a36f0810b1b2b452a6fb5c478b') in 0.029237 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Materials/New Material 2.mat
-  artifactKey: Guid(580379619117f3648aa9e089408027c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/New Material 2.mat using Guid(580379619117f3648aa9e089408027c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd534ea7862f80267d901d89a10f06a78') in 0.010400 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_01_Diffuse.tga
-  artifactKey: Guid(329307f94867b154e8e49be96de7caad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_01_Diffuse.tga using Guid(329307f94867b154e8e49be96de7caad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '64d27ace4e56104bde26e4b2ca86f155') in 0.017521 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_06_Diffuse.tga
-  artifactKey: Guid(d94fc41018e782d4baf1afad1b9e60d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_06_Diffuse.tga using Guid(d94fc41018e782d4baf1afad1b9e60d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8c282b6d31251e2579cfea70da7d38c5') in 0.020551 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_01.mat
-  artifactKey: Guid(0799c0fca43b43549b92dbbb57355b63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_01.mat using Guid(0799c0fca43b43549b92dbbb57355b63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8174d0610cabb2fceda911035f198dee') in 0.022048 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_24_Normal.tga
-  artifactKey: Guid(33416e1c35bc9b148a8bf942e484c86e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_24_Normal.tga using Guid(33416e1c35bc9b148a8bf942e484c86e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c55dfc439df45ec05e0c39c6b407493e') in 0.020007 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_25_Normal.tga
-  artifactKey: Guid(18fcf7bf1b94dd3459a6ea26b304428e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_25_Normal.tga using Guid(18fcf7bf1b94dd3459a6ea26b304428e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd8a41c6e9d9f62e8be6228dfde7df518') in 0.014597 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_16_Specular.tga
-  artifactKey: Guid(b4745deb35e7f4a42a3a9da87633930e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_16_Specular.tga using Guid(b4745deb35e7f4a42a3a9da87633930e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '758ba0b41106aba422e34bf003759526') in 0.019351 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_23_Diffuse.tga
-  artifactKey: Guid(8413ed1331ead2d45ade40523232bc0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_23_Diffuse.tga using Guid(8413ed1331ead2d45ade40523232bc0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4be309a6b5c15fa85c1f4c470475ba7e') in 0.015008 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_23_Normal.tga
-  artifactKey: Guid(1fb10c5603038a24abb2ccad745574c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_23_Normal.tga using Guid(1fb10c5603038a24abb2ccad745574c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1ad2ba39fc2822673b435035aaff2878') in 0.015085 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_17_Specular.tga
-  artifactKey: Guid(d1b497fcc74016c4fa7a75ade1959045) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_17_Specular.tga using Guid(d1b497fcc74016c4fa7a75ade1959045) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3d8e9b02b46d54a8aca0fe990b44102d') in 0.019974 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_25_Diffuse.tga
-  artifactKey: Guid(cff6b5a878a08e34f9669b5d411e994d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_25_Diffuse.tga using Guid(cff6b5a878a08e34f9669b5d411e994d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '899cc495fe65bce268fa07a46114d58b') in 0.012803 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_14_Normal.tga
-  artifactKey: Guid(d89e0d9211450ba46a26692c471bc88b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_14_Normal.tga using Guid(d89e0d9211450ba46a26692c471bc88b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f039077bb9705cda6beb6a36240f1f20') in 0.014099 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_15_Normal.tga
-  artifactKey: Guid(b22c6961048b78945bc62e97743a5f70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_15_Normal.tga using Guid(b22c6961048b78945bc62e97743a5f70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'dd99b43de97951ca5dc060e291c59cfa') in 0.015630 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Scripts/PlayerMovement.cs
-  artifactKey: Guid(76847dc4696dfb84586a691f6d87bd24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scripts/PlayerMovement.cs using Guid(76847dc4696dfb84586a691f6d87bd24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '530020159e79485d88113403e29a4097') in 0.009300 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_11_Diffuse.tga
-  artifactKey: Guid(02b2e6db5c6cbc74796f44888a7f1197) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_11_Diffuse.tga using Guid(02b2e6db5c6cbc74796f44888a7f1197) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fe8bea642f7fc0acba4b172eabb1478d') in 0.013459 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_41.mat
-  artifactKey: Guid(c50e2eb70fabc794d9dde9a41e831644) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_41.mat using Guid(c50e2eb70fabc794d9dde9a41e831644) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '15edd21d6facd5e29e748a401355473b') in 0.027458 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/EnemyCharacterModel_Collection.prefab
-  artifactKey: Guid(7f2c124367dd2c6428b4bca519270020) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/EnemyCharacterModel_Collection.prefab using Guid(7f2c124367dd2c6428b4bca519270020) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '663603ece6eb1a92711f22da118aea34') in 0.013256 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_12_Diffuse.tga
-  artifactKey: Guid(5d41fed6b38712241854c1e34c96d3ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_12_Diffuse.tga using Guid(5d41fed6b38712241854c1e34c96d3ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5914faceb8f4790c6449322b16b327c1') in 0.013060 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_18_Specular.tga
-  artifactKey: Guid(7ff2b9825ec83cf4e9225113a0b09455) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_18_Specular.tga using Guid(7ff2b9825ec83cf4e9225113a0b09455) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b3ae934d7804641c937ee42a8a8c1c01') in 0.016198 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_07.mat
-  artifactKey: Guid(579d167621596b0419dc2ebf58efe561) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_07.mat using Guid(579d167621596b0419dc2ebf58efe561) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'bd31d3be86ee38223abcaa7041bb1e52') in 0.019732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_12_Emissive.tga
-  artifactKey: Guid(2d0a4c78ea142244cbf9957397b75d7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_12_Emissive.tga using Guid(2d0a4c78ea142244cbf9957397b75d7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd71f86cde117af45f5d1aaeb51ad233b') in 0.013301 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_47.mat
-  artifactKey: Guid(7a453bae213a8b04b9e9f8adb81cc8be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_47.mat using Guid(7a453bae213a8b04b9e9f8adb81cc8be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c532701a93387dd5123968488d8d4523') in 0.027357 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_02.mat
-  artifactKey: Guid(f99c2f606e487bd4ba7c619b09a10f39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_02.mat using Guid(f99c2f606e487bd4ba7c619b09a10f39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3aaeb055c59d9fb97761aae9ea51848e') in 0.023516 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_20_Normal.tga
-  artifactKey: Guid(0bbf8e810623a7147b33e57b1b821b00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_20_Normal.tga using Guid(0bbf8e810623a7147b33e57b1b821b00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5c40dd261b4c7bca9062f70dd876ebc0') in 0.014612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_03_Diffuse.tga
-  artifactKey: Guid(3f7bdb1db46318a488851d1a48046566) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_03_Diffuse.tga using Guid(3f7bdb1db46318a488851d1a48046566) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '605e40f17ef4784bef21f60c6b79276f') in 0.018415 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_49.mat
-  artifactKey: Guid(2e501b641f5503e4d9442eb5c3f96f74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_49.mat using Guid(2e501b641f5503e4d9442eb5c3f96f74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c7bf701135fd167b6e2aa14b7fa5ec0f') in 0.029394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_29.mat
-  artifactKey: Guid(c3f545871e6ad0b429875fb73852a671) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_29.mat using Guid(c3f545871e6ad0b429875fb73852a671) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'da11bce032273d82c1239544b80e69f8') in 0.009650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_17_Normal.tga
-  artifactKey: Guid(2fdef62fbe345cc4daad91030f54a2d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_17_Normal.tga using Guid(2fdef62fbe345cc4daad91030f54a2d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4362976abbda2da5c4ab30d7d626b0c0') in 0.013726 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_19_Normal.tga
-  artifactKey: Guid(22687ef8e4927174589eb342f9d40cd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_19_Normal.tga using Guid(22687ef8e4927174589eb342f9d40cd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8ee9e481fa0a7c074752b827794281df') in 0.013137 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Models/Caliburn.blend
-  artifactKey: Guid(9039cbb081031a142a578cfb86dd9125) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Models/Caliburn.blend using Guid(9039cbb081031a142a578cfb86dd9125) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '036b1f9425abb928c49970ffab629a74') in 0.025778 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_16.mat
-  artifactKey: Guid(54eb0a880c35ecd4fa56b3b6c33e8aaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_16.mat using Guid(54eb0a880c35ecd4fa56b3b6c33e8aaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b0d4084b358200208e494983eb50f11d') in 0.025629 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_13_Specular.tga
-  artifactKey: Guid(88ea2467daa61a54baba97ff1f4b2625) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_13_Specular.tga using Guid(88ea2467daa61a54baba97ff1f4b2625) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e42d0fef3335b88cb3710a81534bfe3d') in 0.012114 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_24_Diffuse.tga
-  artifactKey: Guid(4bdf8705c42ae7540afc582420d73843) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_24_Diffuse.tga using Guid(4bdf8705c42ae7540afc582420d73843) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1f5793fb398fb8ff2e43d2aa8e08ec3d') in 0.015491 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_08_Diffuse.tga
-  artifactKey: Guid(640ee290d9cbc4b4685c85ef0d50ea60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_08_Diffuse.tga using Guid(640ee290d9cbc4b4685c85ef0d50ea60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '03a70488d0ba42ebf56d5165634fbb4d') in 0.012875 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Scripts/PlayerCam.cs
-  artifactKey: Guid(0c02022abe9b6f147814b5890f93b63b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scripts/PlayerCam.cs using Guid(0c02022abe9b6f147814b5890f93b63b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b392470a6c251122061152c4f4bdfad2') in 0.007701 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_08_Specular.tga
-  artifactKey: Guid(9e54b7e0308fe894fac37951533a179e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_08_Specular.tga using Guid(9e54b7e0308fe894fac37951533a179e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '04a0816c02afc9e9bf0fbe4d175660f9') in 0.015338 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_21_Specular.tga
-  artifactKey: Guid(c979550daad02764d983ba90e592ad9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_21_Specular.tga using Guid(c979550daad02764d983ba90e592ad9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '01edda3b7a254621ea5b68967ea391bd') in 0.014601 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_22_Specular.tga
-  artifactKey: Guid(15e885e03e6987540a13c5f25e1e7f4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_22_Specular.tga using Guid(15e885e03e6987540a13c5f25e1e7f4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fe5ab0d02779238494f05767a9ebb034') in 0.012589 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_01_Specular.tga
-  artifactKey: Guid(09d6c9908f6e3ee4b939119f63b0ee4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_01_Specular.tga using Guid(09d6c9908f6e3ee4b939119f63b0ee4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b0f775aac00d9516a7f32f9a5706dc81') in 0.012810 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_19_Diffuse.tga
-  artifactKey: Guid(ef882f7a63423bf4896b9f58e236acf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_19_Diffuse.tga using Guid(ef882f7a63423bf4896b9f58e236acf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '93ba79f5e57dcae47820e1cf51e17f2d') in 0.012852 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Materials/Ch30_Body.mat
-  artifactKey: Guid(113fafe10afebcc4e8c5aee264c1ff7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/Ch30_Body.mat using Guid(113fafe10afebcc4e8c5aee264c1ff7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '035b5ec185043932823baed87504907d') in 0.026533 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Scripts/BouncePad.cs
-  artifactKey: Guid(87f83bece17afe641a760a1e8c8e1c08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scripts/BouncePad.cs using Guid(87f83bece17afe641a760a1e8c8e1c08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '31793144947a5e133403fa75474fd92e') in 0.008674 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_24_Specular.tga
-  artifactKey: Guid(48be6ed832adba94999829854028da95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_24_Specular.tga using Guid(48be6ed832adba94999829854028da95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b93b95738ca51b6cb91e260f51ff2d89') in 0.014334 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_44.mat
-  artifactKey: Guid(6c196c7188cb7314cb4fc62a41ccad77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_44.mat using Guid(6c196c7188cb7314cb4fc62a41ccad77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0651fca8779cd872ee399ccfef19d45f') in 0.030255 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Charger.cs
-  artifactKey: Guid(ad0cac685653d064e92b0b4f992dd953) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Charger.cs using Guid(ad0cac685653d064e92b0b4f992dd953) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a57ac5e7f42c2324089854d028aa4c7d') in 0.007917 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_20_Specular.tga
-  artifactKey: Guid(bb501974d576ad945a07b28c3af045a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_20_Specular.tga using Guid(bb501974d576ad945a07b28c3af045a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8c749aaa2fc9b0cc866dad43c2d3fcb4') in 0.014608 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_28.mat
-  artifactKey: Guid(b80b25c8f396f7a41bcb9d182502dbf3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_28.mat using Guid(b80b25c8f396f7a41bcb9d182502dbf3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '939e6b2f2131541cce030e0571136cc6') in 0.027904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_45.mat
-  artifactKey: Guid(b371f36f272eff140b69e5a5410cd2bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_45.mat using Guid(b371f36f272eff140b69e5a5410cd2bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '80458f30be26c9c83cb604ed92a11690') in 0.029281 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Materials/New Material.mat
-  artifactKey: Guid(36909f383f778a049be2fd5ad063713e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/New Material.mat using Guid(36909f383f778a049be2fd5ad063713e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '52d6f7a8569630077118456011945ed6') in 0.008459 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Scenes/SampleScene_Profiles/Main Camera Profile 1.asset
-  artifactKey: Guid(9c8cee8b0dd25c740aa8613ab776648c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/SampleScene_Profiles/Main Camera Profile 1.asset using Guid(9c8cee8b0dd25c740aa8613ab776648c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f963d4b267cf6609d16a740836558f7c') in 0.008127 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_05_Normal.tga
-  artifactKey: Guid(f6e6e6daff08ce04f8e7af85582635bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_05_Normal.tga using Guid(f6e6e6daff08ce04f8e7af85582635bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '719e070aaf05a4d0ea30f2e29f3279cb') in 0.012642 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_42.mat
-  artifactKey: Guid(9ee5736c74580c341822a916611ab4f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_42.mat using Guid(9ee5736c74580c341822a916611ab4f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f5b4e6f82e2369dc9874483da2178301') in 0.031724 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_10_Glow.tga
-  artifactKey: Guid(0145160747ee37d48b70a86ba8103d7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_10_Glow.tga using Guid(0145160747ee37d48b70a86ba8103d7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8702a813d6a8cbaf0db714963b630800') in 0.018355 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_13_Diffuse.tga
-  artifactKey: Guid(33dc51d475a7a4146b3b5d4c45273177) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_13_Diffuse.tga using Guid(33dc51d475a7a4146b3b5d4c45273177) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'eb28fbe22d8c876859557e0b2d39c00a') in 0.034871 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.306814 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_27_Normal.tga
-  artifactKey: Guid(32f6012cc48ae0b4899021bb4a03a8da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_27_Normal.tga using Guid(32f6012cc48ae0b4899021bb4a03a8da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5212b1671b42d00f00894e364b033701') in 0.016279 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_40_Normal.tga
-  artifactKey: Guid(0641f934232d8914ea2e2479cf4c0939) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_40_Normal.tga using Guid(0641f934232d8914ea2e2479cf4c0939) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e71e1c80a300adf318c877cd712822f3') in 0.015266 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_47_Normal.tga
-  artifactKey: Guid(28cd040c14026b94aba3d3d6ec7addfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_47_Normal.tga using Guid(28cd040c14026b94aba3d3d6ec7addfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a4d8d1f24da8bbcc8bc0e8057b053f78') in 0.015012 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_46_Diffuse.tga
-  artifactKey: Guid(04b2bfb7759f4854fb05998f97653d99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_46_Diffuse.tga using Guid(04b2bfb7759f4854fb05998f97653d99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9dd0e55d497e7660ef278368d9c8f307') in 0.019195 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_30_Normal.tga
-  artifactKey: Guid(4d8c6a56a528ca742b355ee5b85e7514) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_30_Normal.tga using Guid(4d8c6a56a528ca742b355ee5b85e7514) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1249dc61ec27a0560c38cac1c168f52f') in 0.014280 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_36_Specular.tga
-  artifactKey: Guid(f0227a91a3a34cf459bf745bb80cc352) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_36_Specular.tga using Guid(f0227a91a3a34cf459bf745bb80cc352) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '043064f09157935fbff36d65617d9fb8') in 0.016005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_38_Diffuse.tga
-  artifactKey: Guid(9a1b6d5ae0baac0468a752a11214c0d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_38_Diffuse.tga using Guid(9a1b6d5ae0baac0468a752a11214c0d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '135f1eac8ddb09b5cda829c8da581ec0') in 0.015347 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_31_Diffuse.tga
-  artifactKey: Guid(45327f0d326c97f4f884bf345d710f7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_31_Diffuse.tga using Guid(45327f0d326c97f4f884bf345d710f7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '028772f4c9c2607673315b9248e40ef3') in 0.014422 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_41_Diffuse.tga
-  artifactKey: Guid(a0b96b9edbb3a904a8d6b544881f4b0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_41_Diffuse.tga using Guid(a0b96b9edbb3a904a8d6b544881f4b0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '98cd9ee5c76873d672f9325d45385411') in 0.014172 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_33_Diffuse.tga
-  artifactKey: Guid(3616af53dd0659648b71cb468bf03d44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_33_Diffuse.tga using Guid(3616af53dd0659648b71cb468bf03d44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '73837d584584301a593e1b558fd49967') in 0.015984 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_33_Specular.tga
-  artifactKey: Guid(2f8736d3b14d57248aa4deb116b93d32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_33_Specular.tga using Guid(2f8736d3b14d57248aa4deb116b93d32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '97386dafe78cbe8ac1b6f62a332f5b22') in 0.014996 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_29_Specular.tga
-  artifactKey: Guid(e4302bec91d4bb647bc25b8b81f9a9fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_29_Specular.tga using Guid(e4302bec91d4bb647bc25b8b81f9a9fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2459a040cac03a063477b95e2fdbaf83') in 0.018854 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_37_Normal.tga
-  artifactKey: Guid(99b90d66a3c01c149a95efb7fa1070ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_37_Normal.tga using Guid(99b90d66a3c01c149a95efb7fa1070ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '04cc07693ba35c6667fb71cdbe0ffd12') in 0.016812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_43_Specular.tga
-  artifactKey: Guid(15f2fefe38afc5348b47b4a2e6988bdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_43_Specular.tga using Guid(15f2fefe38afc5348b47b4a2e6988bdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1ac0f445161ca605b30c4232c7f519dc') in 0.016173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_41_Normal.tga
-  artifactKey: Guid(d9dbacc028e656049949af84c56a4e64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_41_Normal.tga using Guid(d9dbacc028e656049949af84c56a4e64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '20e9f7c0dc04f2231ed60b8b780a9fc8') in 0.018464 seconds 
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Styles/CreateOrganizationPanel.uss
+  artifactKey: Guid(55ebb8b19849d1447909e8355a13a5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Styles/CreateOrganizationPanel.uss using Guid(55ebb8b19849d1447909e8355a13a5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5107fd7f8c0814f8c1ec7f7374f687c') in 0.015906 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_44_Specular.tga
-  artifactKey: Guid(54fc8c0a3aa3da9479ee01e94328e9c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_44_Specular.tga using Guid(54fc8c0a3aa3da9479ee01e94328e9c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '04ed25176dbaee5bbd3af61d3d9c14bf') in 0.015546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_35_Diffuse.tga
-  artifactKey: Guid(7c1d65d497687d64c9db74501b19ccf8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_35_Diffuse.tga using Guid(7c1d65d497687d64c9db74501b19ccf8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ceb3b4597efe4a1684d30b771ea9363c') in 0.018054 seconds 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (1.3 MB). Loaded Objects now: 4020.
-Memory consumption went from 62.9 MB to 61.6 MB.
-Total: 6.484400 ms (FindLiveObjects: 0.754000 ms CreateObjectMapping: 0.302200 ms MarkObjects: 4.866200 ms  DeleteObjects: 0.561200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Background/AccentBar_Bottom.png
+  artifactKey: Guid(19fabf6370255433fa736008910e1bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Background/AccentBar_Bottom.png using Guid(19fabf6370255433fa736008910e1bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2439d12b4550eb5b88056471d3adff1c') in 0.074718 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
