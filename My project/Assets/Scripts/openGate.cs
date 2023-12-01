@@ -1,19 +1,42 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class openGate : MonoBehaviour
 {
-
+    public Animator levAnim;
     public GameObject door1;
     public GameObject door2;
+    public float doorMoveDistance = 4f;
+    public float doorOpenCloseDuration = 1f;
 
     private bool doorsOpen = false;
+    private bool playerInCollider = false;
+
+
+    private void Start()
+    {
+        levAnim = GetComponent<Animator>();
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            playerInCollider = true;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            playerInCollider = false;
+        }
+    }
 
     private void Update()
     {
-       
-        if (Input.GetKeyDown(KeyCode.E))
+        // Check if the player is in the collider and pressing E
+        if (Input.GetKeyDown(KeyCode.E) && playerInCollider)
         {
             ToggleDoors();
         }
@@ -21,36 +44,38 @@ public class openGate : MonoBehaviour
 
     private void ToggleDoors()
     {
-      
         doorsOpen = !doorsOpen;
 
-     
         if (doorsOpen)
         {
-            OpenDoors();
+            levAnim.SetTrigger("Pull");
+            StartCoroutine(MoveDoors(door1, Vector3.left, doorMoveDistance, doorOpenCloseDuration));
+            StartCoroutine(MoveDoors(door2, Vector3.right, doorMoveDistance, doorOpenCloseDuration));
         }
         else
         {
-            CloseDoors();
+            levAnim.SetTrigger("Push");
+            
+            StartCoroutine(MoveDoors(door1, Vector3.right, doorMoveDistance, doorOpenCloseDuration));
+            StartCoroutine(MoveDoors(door2, Vector3.left, doorMoveDistance, doorOpenCloseDuration));
         }
     }
 
-    private void OpenDoors()
+    private IEnumerator MoveDoors(GameObject door, Vector3 direction, float distance, float duration)
     {
-       
- 
-        door1.transform.Translate(Vector3.left * 4f);
-        door2.transform.Translate(Vector3.right * 4f);
-    }
+        Vector3 initialPosition = door.transform.position;
+        Vector3 targetPosition = initialPosition + direction * distance;
 
-    private void CloseDoors()
-    {
- 
-        door1.transform.Translate(Vector3.right * 4f);
-        door2.transform.Translate(Vector3.left * 4f);
+        float elapsedTime = 0f;
+
+        while (elapsedTime < duration)
+        {
+            door.transform.position = Vector3.Lerp(initialPosition, targetPosition, elapsedTime / duration);
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        // Ensure door reaches the exact target position to avoid floating point errors
+        door.transform.position = targetPosition;
     }
 }
-
-
-
-
