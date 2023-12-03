@@ -1,11 +1,13 @@
 using System.Collections;
 using UnityEngine;
+using TMPro;
 
 public class openGate : MonoBehaviour
 {
     public Animator levAnim;
     public GameObject door1;
     public GameObject door2;
+    public TextMeshProUGUI interactPrompt; 
     public float doorMoveDistance = 4f;
     public float doorOpenCloseDuration = 1f;
 
@@ -22,6 +24,7 @@ public class openGate : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerInCollider = true;
+            interactPrompt.gameObject.SetActive(true);
         }
     }
 
@@ -30,6 +33,7 @@ public class openGate : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerInCollider = false;
+            interactPrompt.gameObject.SetActive(false);
         }
     }
 
