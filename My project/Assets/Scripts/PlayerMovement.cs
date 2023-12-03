@@ -7,6 +7,8 @@ public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement")]
     public float moveSpeed;
+    public float origMoveSpeed;
+    public float currentSpeed;
 
     public float groundDrag;
 
@@ -18,8 +20,14 @@ public class PlayerMovement : MonoBehaviour
     [HideInInspector] public float walkSpeed;
     [HideInInspector] public float sprintSpeed;
 
+    [Header("Crouching")]
+    public float crouchSpeed;
+    public float crouchYScale;
+    public float beginYScale;
+
     [Header("Keybinds")]
     public KeyCode jumpKey = KeyCode.Space;
+    public KeyCode crouchKey = KeyCode.LeftControl;
 
     [Header("Ground Check")]
     public float playerHeight;
@@ -43,6 +51,8 @@ public class PlayerMovement : MonoBehaviour
         rb.freezeRotation = true;
 
         readyToJump = true;
+
+        beginYScale = transform.localScale.y;
     }
 
     private void Update()
@@ -79,6 +89,15 @@ public class PlayerMovement : MonoBehaviour
 
             Invoke(nameof(ResetJump), jumpCooldown);
         }
+        if (Input.GetKeyDown(crouchKey))
+        {
+            transform.localScale = new Vector3(transform.localScale.x, crouchYScale, transform.localScale.z);
+            rb.AddForce(Vector3.down * 5f, ForceMode.Impulse);
+        }
+        if (Input.GetKeyUp(crouchKey))
+        {
+            transform.localScale = new Vector3(transform.localScale.x, beginYScale, transform.localScale.z);
+        }
     }
 
     private void MovePlayer()
@@ -97,9 +116,25 @@ public class PlayerMovement : MonoBehaviour
 
     private void SpeedControl()
     {
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            currentSpeed = origMoveSpeed * 1.7f;
+        }
+        else if (Input.GetKeyDown(KeyCode.LeftControl))
+        {
+            currentSpeed = origMoveSpeed * 0.6f;
+
+        }
+        else
+        {
+            currentSpeed = origMoveSpeed;
+        }
+
+        moveSpeed = currentSpeed;
+
         Vector3 flatVel = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
 
-        // limit velocity if needed
+       
         if (flatVel.magnitude > moveSpeed)
         {
             Vector3 limitedVel = flatVel.normalized * moveSpeed;
