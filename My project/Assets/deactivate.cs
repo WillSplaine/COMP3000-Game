@@ -12,12 +12,14 @@ public class deactivate : MonoBehaviour
         {
             playerInCollider = true;
             if (Input.GetKeyDown(KeyCode.E))
-                {
-                    gameObject.SetActive(false);
-                }
-          
+            {
+                gameObject.SetActive(false);
+            }
+
         }
     }
+
+
 
     private void OnTriggerExit(Collider other)
     {
@@ -25,10 +27,11 @@ public class deactivate : MonoBehaviour
         {
             playerInCollider = false;
         }
+
     }
-   
-        
-    
+
+
+
 }
 
 
