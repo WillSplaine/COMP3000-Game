@@ -25,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
     public float crouchYScale;
     public float beginYScale;
 
+
     [Header("Keybinds")]
     public KeyCode jumpKey = KeyCode.Space;
     public KeyCode crouchKey = KeyCode.LeftControl;
@@ -96,6 +97,7 @@ public class PlayerMovement : MonoBehaviour
         }
         if (Input.GetKeyUp(crouchKey))
         {
+             
             transform.localScale = new Vector3(transform.localScale.x, beginYScale, transform.localScale.z);
         }
     }

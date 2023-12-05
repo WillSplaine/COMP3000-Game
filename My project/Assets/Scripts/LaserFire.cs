@@ -3,7 +3,7 @@ using System.Collections;
 
 public class LaserFire : MonoBehaviour
 {
-
+    public AudioSource lasershot;
     public ParticleSystem lasermuzzle;
     public BatteryUI batteryUI;
 
@@ -13,7 +13,7 @@ public class LaserFire : MonoBehaviour
     void Start()
     {
         // Initialize the Trail Renderer component.
-        
+        lasershot = GetComponent<AudioSource>();
         BatteryUI batteryUI = GetComponent<BatteryUI>();
     }
 
@@ -28,17 +28,20 @@ public class LaserFire : MonoBehaviour
 
     void Shoot()
     {
-        lasermuzzle.Play();
-        RaycastHit hit;
-        if(Physics.Raycast(Cam.transform.position, Cam.transform.forward, out hit, range))
+        if (batteryUI.currentCharge > 0)
         {
-            Enemy enemy = hit.transform.GetComponent<Enemy>();
-            if (enemy != null)
+            lasershot.Play();
+            lasermuzzle.Play();
+            RaycastHit hit;
+            if (Physics.Raycast(Cam.transform.position, Cam.transform.forward, out hit, range))
             {
-                enemy.GetShot(15);
+                Enemy enemy = hit.transform.GetComponent<Enemy>();
+                if (enemy != null)
+                {
+                    enemy.GetShot(15);
+                }
             }
         }
-
 
        
         

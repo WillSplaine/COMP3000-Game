@@ -16,7 +16,7 @@ public class BatteryUI : MonoBehaviour
 
     private void UpdateChargeBar()
     {
-        int segmentSize = maxCharge / chargeSegments.Length;
+        int segmentSize = (maxCharge / chargeSegments.Length);
 
         for (int i = 0; i < chargeSegments.Length; i++)
         {
