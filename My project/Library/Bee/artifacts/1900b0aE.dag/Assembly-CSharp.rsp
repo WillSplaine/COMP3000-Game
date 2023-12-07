@@ -362,6 +362,7 @@
 "Assets/Scripts/FootstepsFX.cs"
 "Assets/Scripts/GrapplingGun.cs"
 "Assets/Scripts/LaserFire.cs"
+"Assets/Scripts/LaserTrail.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/openGate.cs"
 "Assets/Scripts/pickUpPrompt.cs"

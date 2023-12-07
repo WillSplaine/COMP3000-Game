@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using Unity.VisualScripting;
 
 public class LaserFire : MonoBehaviour
 {
@@ -9,7 +10,11 @@ public class LaserFire : MonoBehaviour
 
     public Camera Cam;
     public float range = 75f;
+    //public Transform weaponBarrel;
 
+    public GameObject laserProj;
+    public Transform barrelTip;
+    
     void Start()
     {
         
@@ -34,6 +39,8 @@ public class LaserFire : MonoBehaviour
             lasershot.Play();
             lasermuzzle.Play();
             RaycastHit hit;
+            GameObject laser = Instantiate(laserProj, barrelTip.position , barrelTip.rotation);
+            laser.GetComponent<Rigidbody>().AddForce(barrelTip.forward * 90f, ForceMode.Impulse);
             if (Physics.Raycast(Cam.transform.position, Cam.transform.forward, out hit, range))
             {
                 Enemy enemy = hit.transform.GetComponent<Enemy>();
@@ -51,7 +58,7 @@ public class LaserFire : MonoBehaviour
                     target.takeDamage(15);
                 }
             }
-
+            Destroy(laser,.6f);
 
 
         }
