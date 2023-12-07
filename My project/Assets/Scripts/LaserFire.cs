@@ -12,9 +12,10 @@ public class LaserFire : MonoBehaviour
 
     void Start()
     {
-        // Initialize the Trail Renderer component.
+        
         lasershot = GetComponent<AudioSource>();
         BatteryUI batteryUI = GetComponent<BatteryUI>();
+        
     }
 
     void Update()
@@ -22,7 +23,7 @@ public class LaserFire : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             Shoot();
-          batteryUI.LoseCharge(2);
+            batteryUI.LoseCharge(2);
         }
     }
 
@@ -41,9 +42,18 @@ public class LaserFire : MonoBehaviour
                     enemy.GetShot(15);
                 }
             }
-        }
+            RaycastHit hittarget;
+            if (Physics.Raycast(Cam.transform.position, Cam.transform.forward, out hittarget, range))
+            {
+                TargetPracticeMini target = hittarget.transform.GetComponent<TargetPracticeMini>();
+                if (target != null)
+                {
+                    target.takeDamage(15);
+                }
+            }
 
-       
-        
+
+
+        }
     }
 }
