@@ -38,28 +38,31 @@ public class GrapplingGun : MonoBehaviour
 
     void StartGrapple()
     {
-        RaycastHit hit;
-        if (Physics.Raycast(camera.position, camera.forward, out hit, maxDistance, whatIsGrappleable))
+        if (batt.currentCharge > 0)
         {
-            grapplePoint = hit.point;
-            joint = player.gameObject.AddComponent<SpringJoint>();
-            joint.autoConfigureConnectedAnchor = false;
-            joint.connectedAnchor = grapplePoint;
+            RaycastHit hit;
+            if (Physics.Raycast(camera.position, camera.forward, out hit, maxDistance, whatIsGrappleable))
+            {
+                grapplePoint = hit.point;
+                joint = player.gameObject.AddComponent<SpringJoint>();
+                joint.autoConfigureConnectedAnchor = false;
+                joint.connectedAnchor = grapplePoint;
 
-            float distanceFromPoint = Vector3.Distance(player.position, grapplePoint);
+                float distanceFromPoint = Vector3.Distance(player.position, grapplePoint);
 
-            joint.maxDistance = distanceFromPoint * 0.8f;
-            joint.minDistance = distanceFromPoint * 0.25f;
+                joint.maxDistance = distanceFromPoint * 0.8f;
+                joint.minDistance = distanceFromPoint * 0.25f;
 
-            joint.spring = 8f;
-            joint.damper = 7f;
-            joint.massScale = 4.5f;
+                joint.spring = 8f;
+                joint.damper = 7f;
+                joint.massScale = 4.5f;
 
-            lr.positionCount = 2;
-            currentGrapplePosition = gunTip.position;
-            batt.LoseCharge(3);
+                lr.positionCount = 2;
+                currentGrapplePosition = gunTip.position;
+                batt.LoseCharge(3);
 
-           
+
+            }
         }
     }
 
