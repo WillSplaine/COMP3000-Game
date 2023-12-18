@@ -55,8 +55,12 @@ public class PauseMenu : MonoBehaviour
 
     public void SettingsPage()
     {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         settingsMenu.SetActive(true);
         pauseMenu.SetActive(false);
+        Time.timeScale = 0f;
+        gamePaused = true;
     }
     public void SettingsPageReturn()
     {

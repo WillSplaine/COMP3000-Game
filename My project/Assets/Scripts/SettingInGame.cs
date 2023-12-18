@@ -5,11 +5,19 @@ using UnityEngine.Audio;
 
 public class SettingInGame : MonoBehaviour
 {
+    
+    public AudioMixer audioMixerMus;
+    public AudioMixer audioMixerSFX;
 
-    public AudioMixer audioMixer;
-
-    public void SetVol(float vol)
+  
+    public void SetVolMus(float vol)
     {
-        audioMixer.SetFloat("MasterVol", vol);
+        audioMixerMus.SetFloat("MusVol", vol);
+    }
+    
+
+    public void SetVolSFX(float vol)
+    {
+        audioMixerSFX.SetFloat("SFXVol", vol);
     }
 }
