@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement")]
@@ -25,7 +24,6 @@ public class PlayerMovement : MonoBehaviour
     public float crouchYScale;
     public float beginYScale;
 
-
     [Header("Keybinds")]
     public KeyCode jumpKey = KeyCode.Space;
     public KeyCode crouchKey = KeyCode.LeftControl;
@@ -44,7 +42,11 @@ public class PlayerMovement : MonoBehaviour
 
     Rigidbody rb;
 
- 
+    // Wall Run variables
+    public LayerMask whatIsWall;
+    public float wallrunForce, maxWallSpeed;
+    bool isWallRight, isWallLeft;
+    bool isWallRunning;
 
     private void Start()
     {
@@ -69,6 +71,10 @@ public class PlayerMovement : MonoBehaviour
             rb.drag = groundDrag;
         else
             rb.drag = 0;
+
+        // Wall Run
+        CheckForWall();
+        WallRunInput();
     }
 
     private void FixedUpdate()
@@ -97,7 +103,6 @@ public class PlayerMovement : MonoBehaviour
         }
         if (Input.GetKeyUp(crouchKey))
         {
-             
             transform.localScale = new Vector3(transform.localScale.x, beginYScale, transform.localScale.z);
         }
     }
@@ -125,7 +130,6 @@ public class PlayerMovement : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.LeftControl))
         {
             currentSpeed = origMoveSpeed * 0.6f;
-
         }
         else
         {
@@ -136,7 +140,6 @@ public class PlayerMovement : MonoBehaviour
 
         Vector3 flatVel = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
 
-       
         if (flatVel.magnitude > moveSpeed)
         {
             Vector3 limitedVel = flatVel.normalized * moveSpeed;
@@ -151,8 +154,49 @@ public class PlayerMovement : MonoBehaviour
 
         rb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
     }
+
     private void ResetJump()
     {
         readyToJump = true;
+    }
+
+    private void WallRunInput()
+    {
+        if (Input.GetKey(KeyCode.D) && isWallRight) StartWallrun();
+        if (Input.GetKey(KeyCode.A) && isWallLeft) StartWallrun();
+    }
+
+    private void StartWallrun()
+    {
+        rb.useGravity = false;
+        isWallRunning = true;
+
+        if (rb.velocity.magnitude <= maxWallSpeed)
+        {
+            rb.AddForce(orientation.forward * wallrunForce * Time.deltaTime);
+
+            if (isWallRight)
+                rb.AddForce(orientation.right * wallrunForce / 5 * Time.deltaTime);
+            else
+                rb.AddForce(-orientation.right * wallrunForce / 5 * Time.deltaTime);
+
+            // Apply a slight downward force on the y-axis
+            rb.AddForce(Vector3.down * 20f * Time.deltaTime);
+        }
+    }
+
+
+    private void StopWallRun()
+    {
+        isWallRunning = false;
+        rb.useGravity = true;
+    }
+
+    private void CheckForWall()
+    {
+        isWallRight = Physics.Raycast(transform.position, orientation.right, 1f, whatIsWall);
+        isWallLeft = Physics.Raycast(transform.position, -orientation.right, 1f, whatIsWall);
+
+        if (!isWallLeft && !isWallRight) StopWallRun();
     }
 }
