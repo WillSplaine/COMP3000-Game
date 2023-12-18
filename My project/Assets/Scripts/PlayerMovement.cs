@@ -75,6 +75,18 @@ public class PlayerMovement : MonoBehaviour
         // Wall Run
         CheckForWall();
         WallRunInput();
+
+        // Added wall jump functionality
+        if (Input.GetKey(jumpKey) && isWallRunning)
+        {
+            
+                // Push off from the wall run
+                rb.useGravity = true;
+                Vector3 wallRunDirection = isWallRight ? -orientation.right : orientation.right;
+                rb.velocity = wallRunDirection * jumpForce * .9f; // Adjust the force as needed
+                StopWallRun();
+           
+        }
     }
 
     private void FixedUpdate()
@@ -184,7 +196,6 @@ public class PlayerMovement : MonoBehaviour
             rb.AddForce(Vector3.down * 20f * Time.deltaTime);
         }
     }
-
 
     private void StopWallRun()
     {

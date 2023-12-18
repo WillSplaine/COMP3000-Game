@@ -4,8 +4,10 @@ using Unity.VisualScripting;
 
 public class LaserFire : MonoBehaviour
 {
+    
     public AudioSource lasershot;
     public ParticleSystem lasermuzzle;
+
     public BatteryUI batteryUI;
 
     public Camera Cam;
@@ -25,7 +27,8 @@ public class LaserFire : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        bool Paused = PauseMenu.gamePaused;
+        if (Input.GetMouseButtonDown(0) && !Paused)
         {
             Shoot();
             batteryUI.LoseCharge(2);
