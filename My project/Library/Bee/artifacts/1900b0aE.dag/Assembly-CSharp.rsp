@@ -364,6 +364,7 @@
 "Assets/Scripts/GrapplingGun.cs"
 "Assets/Scripts/LaserFire.cs"
 "Assets/Scripts/LaserTrail.cs"
+"Assets/Scripts/LevelButton.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/openGate.cs"
 "Assets/Scripts/PauseMenu.cs"
