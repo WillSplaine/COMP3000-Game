@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class PlayerCam : MonoBehaviour
 {
-    public float sensX;
-    public float sensY;
+    
 
+    Sensitivity sensitivityScript;
     public Transform orientation;
 
     float xRotation;
@@ -16,13 +16,15 @@ public class PlayerCam : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+
+        sensitivityScript = FindObjectOfType<Sensitivity>();
     }
 
     private void Update()
     {
         // get mouse input
-        float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensX;
-        float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * sensY;
+        float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensitivityScript.sensitivityX;
+        float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * sensitivityScript.sensitivityY;
 
         yRotation += mouseX;
 
