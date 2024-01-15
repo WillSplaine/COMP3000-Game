@@ -10,6 +10,8 @@ public class SettingInGame : MonoBehaviour
     public AudioMixer audioMixerSFX;
 
   
+
+  
     public void SetVolMus(float vol)
     {
         audioMixerMus.SetFloat("MusVol", vol);
