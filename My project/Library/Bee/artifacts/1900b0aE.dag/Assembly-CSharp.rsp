@@ -353,6 +353,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Move.cs"
+"Assets/Rocks and Boulders 2/Shaders/RotateGameObject.cs"
 "Assets/Scripts/BatteryUI.cs"
 "Assets/Scripts/BouncePad.cs"
 "Assets/Scripts/CameraMovement.cs"
