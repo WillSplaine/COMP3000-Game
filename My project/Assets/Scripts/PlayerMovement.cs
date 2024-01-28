@@ -33,6 +33,11 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask whatIsGround;
     bool grounded;
 
+    [Header("Slope Movement")]
+    public float maxSloapAngle;
+    private RaycastHit slopeHit;
+    private bool exitingSlope;
+
     public Transform orientation;
 
     float horizontalInput;
@@ -210,4 +215,21 @@ public class PlayerMovement : MonoBehaviour
 
         if (!isWallLeft && !isWallRight) StopWallRun();
     }
+
+private bool OnSlope()
+{
+    if (Physics.Raycast(transform.position, Vector3.down, out slopeHit, playerHeight * 0.5f + 0.3f))
+    {
+        float angle = Vector3.Angle(Vector3.up, slopeHit.normal);
+        return angle < maxSloapAngle && angle != 0;
+    }
+    return false;
+}
+
+private Vector3 GetSlopeMoveDir()
+{
+    return Vector3.ProjectOnPlane(moveDirection, slopeHit.normal).normalized;
+}
+
+
 }
