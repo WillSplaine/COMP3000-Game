@@ -74,8 +74,8 @@
     <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.7\Runtime\Core\Changelog.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.7\Runtime\Core\HandleConstraint2D.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.7\Runtime\Core\SemVer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.7\Runtime\Core\SharedVertex.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.7\Runtime\Core\ColorPalette.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.7\Runtime\Core\SharedVertex.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.7\Runtime\MeshOperations\ElementSelection.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.7\Runtime\Core\WingedEdgeEnumerator.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.7\Runtime\Core\ColorUtility.cs" />
@@ -142,8 +142,8 @@
     <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.7\Runtime\Core\TriggerBehaviour.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.7\Runtime\Core\SelectionPickerRenderer.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.7\Runtime\Core\Transform2D.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.7\Runtime\Core\SelectionPickerSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.7\Runtime\Core\IHasDefault.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.7\Runtime\Core\SelectionPickerSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.7\Runtime\Core\Triangle.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.7\Runtime\MeshOperations\UV\TextureStitching.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.7\Runtime\Core\EdgeUtility.cs" />

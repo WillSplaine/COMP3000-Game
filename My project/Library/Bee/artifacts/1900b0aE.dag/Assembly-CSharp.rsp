@@ -375,6 +375,7 @@
 "Assets/Scripts/sargeBehaviour.cs"
 "Assets/Scripts/Sensitivity.cs"
 "Assets/Scripts/SettingInGame.cs"
+"Assets/Scripts/SteppingStones.cs"
 "Assets/Scripts/TargetPracticeMini.cs"
 "Assets/Scripts/WallMovement.cs"
 "Assets/Scripts/WallRun2.cs"

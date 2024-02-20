@@ -61,7 +61,16 @@ public class LaserFire : MonoBehaviour
                     target.takeDamage(15);
                 }
             }
-            Destroy(laser,.6f);
+            RaycastHit hittargetstep;
+            if (Physics.Raycast(Cam.transform.position, Cam.transform.forward, out hittargetstep, range))
+            {
+                SteppingStones Target = hittargetstep.transform.GetComponent<SteppingStones>();
+                if (Target != null)
+                {
+                    Target.takeDamage(15);
+                }
+            }
+                Destroy(laser,.6f);
 
 
         }
