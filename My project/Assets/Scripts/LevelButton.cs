@@ -13,12 +13,12 @@ public class LevelButton : MonoBehaviour
     }
     public void PlayGame()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Level 3");
 
     }
     public void PlayLevel2()
     {
-        SceneManager.LoadScene("Level 2");
+        SceneManager.LoadScene("Game");
 
     }
 }

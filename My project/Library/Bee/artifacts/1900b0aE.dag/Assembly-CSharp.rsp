@@ -352,7 +352,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Move.cs"
 "Assets/Rocks and Boulders 2/Shaders/RotateGameObject.cs"
 "Assets/Scripts/BatteryUI.cs"
 "Assets/Scripts/BouncePad.cs"
@@ -367,6 +366,7 @@
 "Assets/Scripts/LaserTrail.cs"
 "Assets/Scripts/LevelButton.cs"
 "Assets/Scripts/MainMenu.cs"
+"Assets/Scripts/Move.cs"
 "Assets/Scripts/openGate.cs"
 "Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/pickUpPrompt.cs"
@@ -376,6 +376,8 @@
 "Assets/Scripts/Sensitivity.cs"
 "Assets/Scripts/SettingInGame.cs"
 "Assets/Scripts/TargetPracticeMini.cs"
+"Assets/Scripts/WallMovement.cs"
+"Assets/Scripts/WallRun2.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
@@ -410,8 +412,6 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
-"Assets/WallMovement.cs"
-"Assets/WallRun2.cs"
 -langversion:9.0
 
 /deterministic
