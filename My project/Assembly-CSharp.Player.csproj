@@ -94,6 +94,7 @@
     <Compile Include="Assets\Scripts\FootstepsFX.cs" />
     <Compile Include="Assets\Scripts\LaserFire.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\Scripts\SteppingStones.cs" />
     <Compile Include="Assets\Scripts\SettingInGame.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\Scripts\equip.cs" />
@@ -116,7 +117,10 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Scripts\Charger.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-    <Compile Include="Assets\Scripts\SteppingStones.cs" />
+    <Compile Include="Assets\Scripts\RunTimerScript.cs" />
+    <Compile Include="Assets\Scripts\EventManager.cs" />
+    <Compile Include="Assets\Scripts\StartTimer.cs" />
+    <Compile Include="Assets\Scripts\EndTimer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
