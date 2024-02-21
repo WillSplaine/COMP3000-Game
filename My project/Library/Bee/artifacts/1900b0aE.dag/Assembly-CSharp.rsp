@@ -374,6 +374,7 @@
 "Assets/Scripts/pickUpPrompt.cs"
 "Assets/Scripts/PlayerCam.cs"
 "Assets/Scripts/PlayerMovement.cs"
+"Assets/Scripts/RestartLevel.cs"
 "Assets/Scripts/RunTimerScript.cs"
 "Assets/Scripts/sargeBehaviour.cs"
 "Assets/Scripts/Sensitivity.cs"
