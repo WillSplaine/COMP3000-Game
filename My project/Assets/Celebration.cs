@@ -8,6 +8,12 @@ public class Celebration : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-       particles.SetActive(true);
+
+        if (other.CompareTag("Player")) 
+        {
+            particles.SetActive(true); 
+        }
+
+            
     }
 }

@@ -12,13 +12,16 @@ public class FellInWater : MonoBehaviour
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
     {
-        
-        playerFell = true;
+        if (other.CompareTag("Player"))
+        {
+            playerFell = true;
 
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
-        DeathScreen.SetActive(true);
-        Time.timeScale = 0f;
+          Cursor.lockState = CursorLockMode.None;
+         Cursor.visible = true;
+         DeathScreen.SetActive(true);
+         Time.timeScale = 0f;
+        }
+            
         
     }
 

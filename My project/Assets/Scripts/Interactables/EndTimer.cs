@@ -16,14 +16,20 @@ public class EndTimer : MonoBehaviour
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
     {
-        EventManager.OnTimerEnd();
-        ShowTime();
-        runComplete = true;
 
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
-        finalScoreScreen.SetActive(true);
-        Time.timeScale = 0f;
+        if (other.CompareTag("Player"))
+        {
+         EventManager.OnTimerEnd();
+         ShowTime();
+          runComplete = true;
+
+         Cursor.lockState = CursorLockMode.None;
+          Cursor.visible = true;
+         finalScoreScreen.SetActive(true);
+            Time.timeScale = 0f;
+
+        }
+            
     }
     void ShowTime()
     {
