@@ -9,6 +9,7 @@ public class SteppingStones : MonoBehaviour
     public GameObject stone;
     public GameObject stone1;
     public float destroyDelay = 0.2f;
+    public float appearSpeed = 0.2f;
 
     void Start()
     {
