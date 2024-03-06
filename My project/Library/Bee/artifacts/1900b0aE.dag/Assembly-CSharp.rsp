@@ -373,6 +373,7 @@
 "Assets/Scripts/Movement/PlayerMovement.cs"
 "Assets/Scripts/Movement/WallMovement.cs"
 "Assets/Scripts/Movement/WallRun2.cs"
+"Assets/Scripts/Platform.cs"
 "Assets/Scripts/PlayerCam.cs"
 "Assets/Scripts/sargeBehaviour.cs"
 "Assets/Scripts/UI/BatteryUI.cs"
