@@ -20,9 +20,12 @@ public class PlayerMovement : MonoBehaviour
     [HideInInspector] public float sprintSpeed;
 
     [Header("Crouching")]
-    public float crouchSpeed;
     public float crouchYScale;
     public float beginYScale;
+    private bool isCrouched;
+    float distanceToSlide;
+    float timeToReachSlide;
+
 
     [Header("Keybinds")]
     public KeyCode jumpKey = KeyCode.Space;
@@ -84,19 +87,20 @@ public class PlayerMovement : MonoBehaviour
         // Added wall jump functionality
         if (Input.GetKey(jumpKey) && isWallRunning)
         {
-            
-                // Push off from the wall run
-                rb.useGravity = true;
-                Vector3 wallRunDirection = isWallRight ? -orientation.right : orientation.right;
-                rb.velocity = wallRunDirection * jumpForce * .9f; // Adjust the force as needed
-                StopWallRun();
-           
+
+            // Push off from the wall run
+            rb.useGravity = true;
+            Vector3 wallRunDirection = isWallRight ? -orientation.right : orientation.right;
+            rb.velocity = wallRunDirection * jumpForce * .9f; // Adjust the force as needed
+            StopWallRun();
+
         }
     }
 
     private void FixedUpdate()
     {
         MovePlayer();
+
     }
 
     private void MyInput()
@@ -115,14 +119,46 @@ public class PlayerMovement : MonoBehaviour
         }
         if (Input.GetKeyDown(crouchKey))
         {
+            isCrouched = true;
             transform.localScale = new Vector3(transform.localScale.x, crouchYScale, transform.localScale.z);
             rb.AddForce(Vector3.down * 5f, ForceMode.Impulse);
+
+
+            rb.AddForce(Vector3.forward * 5f, ForceMode.Impulse);
+            moveDirection = Vector3.zero;
+            Vector3 currentPos = transform.position;
+            Vector3 slidePos = currentPos + orientation.forward * 8f;
+            //rb.MovePosition(slidePos);
+
+            distanceToSlide = Vector3.Distance(currentPos, slidePos);
+            timeToReachSlide = distanceToSlide / 30f;
+
+            StartCoroutine(Sliding(slidePos, timeToReachSlide));
         }
-        if (Input.GetKeyUp(crouchKey))
+        else if (Input.GetKeyUp(crouchKey))
         {
+            isCrouched = false;
+            currentSpeed = origMoveSpeed;
             transform.localScale = new Vector3(transform.localScale.x, beginYScale, transform.localScale.z);
+
         }
     }
+
+    IEnumerator Sliding(Vector3 targetPos, float time){
+
+        float timeElapsed = 0f;
+        Vector3 startPos = transform.position;
+
+        while (timeElapsed < time)
+        {
+            transform.position = Vector3.Lerp(startPos, targetPos, timeElapsed / time);
+            timeElapsed += Time.deltaTime;
+            yield return null;
+
+        }
+        transform.position = targetPos;
+    }
+
 
     private void MovePlayer()
     {
@@ -139,19 +175,10 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void SpeedControl()
-    {
-        if (Input.GetKey(KeyCode.LeftShift))
-        {
-            currentSpeed = origMoveSpeed * 1.7f;
-        }
-        else if (Input.GetKeyDown(KeyCode.LeftControl))
-        {
-            currentSpeed = origMoveSpeed * 0.6f;
-        }
-        else
+        
         {
             currentSpeed = origMoveSpeed;
-        }
+        
 
         moveSpeed = currentSpeed;
 
@@ -161,6 +188,10 @@ public class PlayerMovement : MonoBehaviour
         {
             Vector3 limitedVel = flatVel.normalized * moveSpeed;
             rb.velocity = new Vector3(limitedVel.x, rb.velocity.y, limitedVel.z);
+        }
+        if(isCrouched) 
+        { 
+         moveSpeed = 0f;
         }
     }
 

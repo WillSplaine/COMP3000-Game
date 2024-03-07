@@ -39672,7 +39672,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 0
-  origMoveSpeed: 6
+  origMoveSpeed: 10.2
   currentSpeed: 0
   groundDrag: 5
   jumpForce: 5
@@ -39680,11 +39680,13 @@ MonoBehaviour:
   airMultiplier: 0
   walkSpeed: 0
   sprintSpeed: 0
-  crouchSpeed: 7
+  crouchSpeed: 0
   crouchYScale: 0.6
   beginYScale: 1
+  crouchMoveForce: 30000
+  crouchStopThreshold: 30
   jumpKey: 32
-  crouchKey: 99
+  crouchKey: 306
   playerHeight: 2
   whatIsGround:
     serializedVersion: 2
