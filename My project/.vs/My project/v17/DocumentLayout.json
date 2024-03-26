@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\assets\\scripts\\movement\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|s:\\3rd year cw\\comp3000 - final year project\\comp3000-game\\my project\\assets\\scripts\\movement\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movement\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|s:\\3rd year cw\\comp3000 - final year project\\comp3000-game\\my project\\assets\\scripts\\weapon scripts\\grapplinggun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapon scripts\\grapplinggun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,21 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GrapplingGun.cs",
-              "DocumentMoniker": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\Assets\\Scripts\\Weapon Scripts\\GrapplingGun.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Weapon Scripts\\GrapplingGun.cs",
-              "ToolTip": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\Assets\\Scripts\\Weapon Scripts\\GrapplingGun.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Weapon Scripts\\GrapplingGun.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAIwDcAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T22:56:33.997Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -41,9 +24,9 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Movement\\PlayerMovement.cs",
               "ToolTip": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\Assets\\Scripts\\Movement\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\Movement\\PlayerMovement.cs",
-              "ViewState": "AQIAAHcAAAAAAAAAAAAIwIUAAAAzAAAA",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAIwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-24T08:43:26.923Z",
+              "WhenOpened": "2024-03-11T02:52:53.692Z",
               "EditorCaption": ""
             }
           ]
