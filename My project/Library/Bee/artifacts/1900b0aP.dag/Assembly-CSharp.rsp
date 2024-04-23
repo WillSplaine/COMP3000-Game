@@ -325,6 +325,7 @@
 "Assets/Scripts/Movement/PlayerMovement.cs"
 "Assets/Scripts/Movement/WallMovement.cs"
 "Assets/Scripts/Movement/WallRun2.cs"
+"Assets/Scripts/Platform.cs"
 "Assets/Scripts/PlayerCam.cs"
 "Assets/Scripts/sargeBehaviour.cs"
 "Assets/Scripts/UI/BatteryUI.cs"
@@ -341,6 +342,7 @@
 "Assets/Scripts/Weapon Scripts/GrapplingGun.cs"
 "Assets/Scripts/Weapon Scripts/LaserFire.cs"
 "Assets/Scripts/Weapon Scripts/LaserTrail.cs"
+"Assets/SinglePlayAudio.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
@@ -375,6 +377,7 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
+"Assets/TutorialVoiceover.cs"
 -langversion:9.0
 
 /deterministic
