@@ -25,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isCrouched;
     float distanceToSlide;
     float timeToReachSlide;
+    bool slidingOnCooldown;
 
 
     [Header("Keybinds")]
@@ -119,29 +120,38 @@ public class PlayerMovement : MonoBehaviour
         }
         if (Input.GetKeyDown(crouchKey))
         {
-            isCrouched = true;
-            transform.localScale = new Vector3(transform.localScale.x, crouchYScale, transform.localScale.z);
-            rb.AddForce(Vector3.down * 5f, ForceMode.Impulse);
+            if (!slidingOnCooldown) // Check if sliding is not on cooldown
+            {
+                isCrouched = true;
+                transform.localScale = new Vector3(transform.localScale.x, crouchYScale, transform.localScale.z);
+                rb.AddForce(Vector3.down * 5f, ForceMode.Impulse);
 
+                rb.AddForce(Vector3.forward * 5f, ForceMode.Impulse);
+                moveDirection = Vector3.zero;
+                Vector3 currentPos = transform.position;
+                Vector3 slidePos = currentPos + orientation.forward * 8f;
 
-            rb.AddForce(Vector3.forward * 5f, ForceMode.Impulse);
-            moveDirection = Vector3.zero;
-            Vector3 currentPos = transform.position;
-            Vector3 slidePos = currentPos + orientation.forward * 8f;
-            //rb.MovePosition(slidePos);
+                distanceToSlide = Vector3.Distance(currentPos, slidePos);
+                timeToReachSlide = distanceToSlide / 30f;
 
-            distanceToSlide = Vector3.Distance(currentPos, slidePos);
-            timeToReachSlide = distanceToSlide / 30f;
+                StartCoroutine(Sliding(slidePos, timeToReachSlide));
 
-            StartCoroutine(Sliding(slidePos, timeToReachSlide));
+                slidingOnCooldown = true; // Set sliding on cooldown
+                StartCoroutine(ResetSlideCooldown());
+            }
         }
         else if (Input.GetKeyUp(crouchKey))
         {
             isCrouched = false;
             currentSpeed = origMoveSpeed;
             transform.localScale = new Vector3(transform.localScale.x, beginYScale, transform.localScale.z);
-
         }
+    }
+
+    IEnumerator ResetSlideCooldown()
+    {
+        yield return new WaitForSeconds(6f);
+        slidingOnCooldown = false;
     }
 
     IEnumerator Sliding(Vector3 targetPos, float time){

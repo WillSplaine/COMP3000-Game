@@ -34917,7 +34917,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh23950
+  m_Name: pb_Mesh27354
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -41354,7 +41354,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 36909f383f778a049be2fd5ad063713e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -41392,7 +41392,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1090123123}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -560.5869, y: 14.729996, z: 29.64647}
+  m_LocalPosition: {x: -549.3, y: 16.73, z: 29.65}
   m_LocalScale: {x: 1.2707444, y: 1, z: 7.2101192}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -42462,7 +42462,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9039cbb081031a142a578cfb86dd9125, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1541998606474349963, guid: 9039cbb081031a142a578cfb86dd9125, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -53684,7 +53684,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 0
-  origMoveSpeed: 6
+  origMoveSpeed: 10.2
   currentSpeed: 0
   groundDrag: 5
   jumpForce: 5
@@ -53692,7 +53692,6 @@ MonoBehaviour:
   airMultiplier: 0
   walkSpeed: 0
   sprintSpeed: 0
-  crouchSpeed: 7
   crouchYScale: 0.6
   beginYScale: 1
   jumpKey: 32
@@ -54076,6 +54075,7 @@ GameObject:
   - component: {fileID: 1603033443}
   - component: {fileID: 1603033444}
   - component: {fileID: 1603033445}
+  - component: {fileID: 1603033446}
   m_Layer: 3
   m_Name: GameManager
   m_TagString: Untagged
@@ -54130,6 +54130,18 @@ MonoBehaviour:
   sensitivityYText: {fileID: 282406031}
   sensitivityX: 5
   sensitivityY: 5
+--- !u!114 &1603033446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603033442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 443cec3740183a6409952a573ec00466, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1605119213
 GameObject:
   m_ObjectHideFlags: 0

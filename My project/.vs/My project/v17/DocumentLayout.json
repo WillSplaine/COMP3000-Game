@@ -5,6 +5,34 @@
     {
       "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|s:\\3rd year cw\\comp3000 - final year project\\comp3000-game\\my project\\assets\\scripts\\movement\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movement\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|s:\\3rd year cw\\comp3000 - final year project\\comp3000-game\\my project\\assets\\scripts\\ui\\sensitivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\sensitivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|s:\\3rd year cw\\comp3000 - final year project\\comp3000-game\\my project\\assets\\scripts\\ui\\settingingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\settingingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\assets\\scripts\\weapon scripts\\laserfire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapon scripts\\laserfire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\assets\\scripts\\weapon scripts\\lasertrail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapon scripts\\lasertrail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\assets\\scripts\\interactables\\targetpracticemini.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactables\\targetpracticemini.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\assets\\scripts\\movement\\cameramovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movement\\cameramovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\assets\\scripts\\playercam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +42,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LaserTrail.cs",
+              "DocumentMoniker": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\Assets\\Scripts\\Weapon Scripts\\LaserTrail.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Weapon Scripts\\LaserTrail.cs",
+              "ToolTip": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\Assets\\Scripts\\Weapon Scripts\\LaserTrail.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Weapon Scripts\\LaserTrail.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T00:47:51.184Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sensitivity.cs",
+              "DocumentMoniker": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\Assets\\Scripts\\UI\\Sensitivity.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Sensitivity.cs",
+              "ToolTip": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\Assets\\Scripts\\UI\\Sensitivity.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Sensitivity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T18:52:15.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SettingInGame.cs",
+              "DocumentMoniker": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\Assets\\Scripts\\UI\\SettingInGame.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\SettingInGame.cs",
+              "ToolTip": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\Assets\\Scripts\\UI\\SettingInGame.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\SettingInGame.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T17:00:09.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LaserFire.cs",
+              "DocumentMoniker": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\Assets\\Scripts\\Weapon Scripts\\LaserFire.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Weapon Scripts\\LaserFire.cs",
+              "ToolTip": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\Assets\\Scripts\\Weapon Scripts\\LaserFire.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Weapon Scripts\\LaserFire.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwC0AAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T16:09:09.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TargetPracticeMini.cs",
+              "DocumentMoniker": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\Assets\\Scripts\\Interactables\\TargetPracticeMini.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactables\\TargetPracticeMini.cs",
+              "ToolTip": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\Assets\\Scripts\\Interactables\\TargetPracticeMini.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interactables\\TargetPracticeMini.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T16:07:05.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CameraMovement.cs",
+              "DocumentMoniker": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\Assets\\Scripts\\Movement\\CameraMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Movement\\CameraMovement.cs",
+              "ToolTip": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\Assets\\Scripts\\Movement\\CameraMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Movement\\CameraMovement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T19:35:52.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerCam.cs",
+              "DocumentMoniker": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\Assets\\Scripts\\PlayerCam.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerCam.cs",
+              "ToolTip": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\Assets\\Scripts\\PlayerCam.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerCam.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T19:35:00.838Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +139,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Movement\\PlayerMovement.cs",
               "ToolTip": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\Assets\\Scripts\\Movement\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\Movement\\PlayerMovement.cs",
-              "ViewState": "AQIAAH0AAAAAAAAAAAAIwAAAAAAAAAAA",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAwwI8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-11T02:52:53.692Z",
               "EditorCaption": ""

@@ -1,0 +1,356 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5232352846303317067
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5232352846303317060}
+  m_Layer: 0
+  m_Name: EnemyPathing-F1 (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5232352846303317060
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5232352846303317067}
+  m_LocalRotation: {x: -0, y: 0.9631882, z: -0, w: 0.26882818}
+  m_LocalPosition: {x: 23.412819, y: -0.5370865, z: 107.59111}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5232352848107371195}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5232352846492957999
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5232352846492957992}
+  m_Layer: 0
+  m_Name: EnemyPathing-F1 (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5232352846492957992
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5232352846492957999}
+  m_LocalRotation: {x: -0, y: 0.9631882, z: -0, w: 0.26882818}
+  m_LocalPosition: {x: 0.0028152466, y: -0.5370865, z: -5.8088913}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5232352848107371195}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5232352846557587782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5232352846557587783}
+  m_Layer: 0
+  m_Name: EnemyPathing-F1 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5232352846557587783
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5232352846557587782}
+  m_LocalRotation: {x: -0, y: 0.9631882, z: -0, w: 0.26882818}
+  m_LocalPosition: {x: 18.062813, y: -0.5370865, z: 59.041107}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5232352848107371195}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5232352847533924492
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5232352847533924493}
+  m_Layer: 0
+  m_Name: EnemyPathing-F1 (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5232352847533924493
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5232352847533924492}
+  m_LocalRotation: {x: -0, y: 0.9631882, z: -0, w: 0.26882818}
+  m_LocalPosition: {x: 28.802814, y: -0.5370865, z: -5.958893}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5232352848107371195}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5232352848017505033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5232352848017505034}
+  m_Layer: 0
+  m_Name: EnemyPathing-F1 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5232352848017505034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5232352848017505033}
+  m_LocalRotation: {x: -0, y: 0.9631882, z: -0, w: 0.26882818}
+  m_LocalPosition: {x: 2.6891632, y: -0.5370865, z: 31.941109}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5232352848107371195}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5232352848107371194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5232352848107371195}
+  m_Layer: 0
+  m_Name: Floor 1 Enemy's
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5232352848107371195
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5232352848107371194}
+  m_LocalRotation: {x: -0, y: 0.70899, z: -0, w: 0.70521855}
+  m_LocalPosition: {x: -359.0167, y: 5.817093, z: 46.99275}
+  m_LocalScale: {x: 1.2707658, y: 1, z: 3.0194788}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4127213995032971847}
+  - {fileID: 5232352848169427628}
+  - {fileID: 5232352848017505034}
+  - {fileID: 5232352846557587783}
+  - {fileID: 5232352847533924493}
+  - {fileID: 5232352846492957992}
+  - {fileID: 5232352846303317060}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5232352848169427667
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5232352848169427628}
+  m_Layer: 0
+  m_Name: EnemyPathing-F1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5232352848169427628
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5232352848169427667}
+  m_LocalRotation: {x: -0, y: 0.9631882, z: -0, w: 0.26882818}
+  m_LocalPosition: {x: 2.6891632, y: -0.5370865, z: 78.43111}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5232352848107371195}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &5232352847264582475
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5232352848107371195}
+    m_Modifications:
+    - target: {fileID: 5048348319606328907, guid: 7f2c124367dd2c6428b4bca519270020, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.05044069
+      objectReference: {fileID: 0}
+    - target: {fileID: 5048348319606328907, guid: 7f2c124367dd2c6428b4bca519270020, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.024562784
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204364948403618060, guid: 7f2c124367dd2c6428b4bca519270020, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204364948403618060, guid: 7f2c124367dd2c6428b4bca519270020, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.6891632
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204364948403618060, guid: 7f2c124367dd2c6428b4bca519270020, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5370865
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204364948403618060, guid: 7f2c124367dd2c6428b4bca519270020, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 41.406013
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204364948403618060, guid: 7f2c124367dd2c6428b4bca519270020, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.26882818
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204364948403618060, guid: 7f2c124367dd2c6428b4bca519270020, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204364948403618060, guid: 7f2c124367dd2c6428b4bca519270020, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9631882
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204364948403618060, guid: 7f2c124367dd2c6428b4bca519270020, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204364948403618060, guid: 7f2c124367dd2c6428b4bca519270020, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204364948403618060, guid: 7f2c124367dd2c6428b4bca519270020, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 148.811
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204364948403618060, guid: 7f2c124367dd2c6428b4bca519270020, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525730872618819094, guid: 7f2c124367dd2c6428b4bca519270020, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525730872618819094, guid: 7f2c124367dd2c6428b4bca519270020, type: 3}
+      propertyPath: m_WarningMessage
+      value: "\nBinding warning: Some generic clip(s) animate transforms that are
+        already bound by a Humanoid avatar. These transforms can only be changed
+        by Humanoid clips.\n\tTransform 'mixamorig:Hips'\n\tTransform 'mixamorig:LeftFoot'\n\tTransform
+        'mixamorig:LeftHandPinky2'\n\tTransform 'mixamorig:RightHandRing2'\n\tTransform
+        'mixamorig:Spine1'\n\tTransform 'mixamorig:RightArm'\n\tTransform 'mixamorig:LeftLeg'\n\tTransform
+        'mixamorig:LeftShoulder'\n\tTransform 'mixamorig:RightHandRing1'\n\tTransform
+        'mixamorig:LeftHandRing1'\n\tand more ...\n\tFrom animation clip 'Idle'"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8831579619065060278, guid: 7f2c124367dd2c6428b4bca519270020, type: 3}
+      propertyPath: m_Name
+      value: EnemyCharacterModel_Collection (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8831579619065060278, guid: 7f2c124367dd2c6428b4bca519270020, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f2c124367dd2c6428b4bca519270020, type: 3}
+--- !u!1 &3606573985523192061 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8831579619065060278, guid: 7f2c124367dd2c6428b4bca519270020, type: 3}
+  m_PrefabInstance: {fileID: 5232352847264582475}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &5232352847687692459
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3606573985523192061}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &5232352847687692457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3606573985523192061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29da31c62806c6549b783c04a9a0ffc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 0.2
+  waypoints:
+  - {fileID: 5232352848169427628}
+  - {fileID: 5232352848017505034}
+  - {fileID: 5232352846557587783}
+  - {fileID: 5232352847533924493}
+  - {fileID: 5232352846492957992}
+  - {fileID: 5232352846303317060}
+  health: 30
+  playerDetectRange: 10
+  player: {fileID: 0}
+--- !u!4 &4127213995032971847 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8204364948403618060, guid: 7f2c124367dd2c6428b4bca519270020, type: 3}
+  m_PrefabInstance: {fileID: 5232352847264582475}
+  m_PrefabAsset: {fileID: 0}
