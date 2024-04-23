@@ -3,15 +3,23 @@
   "WorkspaceRootPath": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|s:\\3rd year cw\\comp3000 - final year project\\comp3000-game\\my project\\assets\\scripts\\movement\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|s:\\3rd year cw\\comp3000 - final year project\\comp3000-game\\my project\\assets\\singleplayaudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\singleplayaudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|s:\\3rd year cw\\comp3000 - final year project\\comp3000-game\\my project\\assets\\tutorialvoiceover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\tutorialvoiceover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\assets\\scripts\\movement\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movement\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|s:\\3rd year cw\\comp3000 - final year project\\comp3000-game\\my project\\assets\\scripts\\ui\\sensitivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\assets\\scripts\\ui\\sensitivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\sensitivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|s:\\3rd year cw\\comp3000 - final year project\\comp3000-game\\my project\\assets\\scripts\\ui\\settingingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\assets\\scripts\\ui\\settingingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\settingingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -42,11 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "LaserTrail.cs",
               "DocumentMoniker": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\Assets\\Scripts\\Weapon Scripts\\LaserTrail.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Weapon Scripts\\LaserTrail.cs",
@@ -59,7 +67,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SinglePlayAudio.cs",
+              "DocumentMoniker": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\Assets\\SinglePlayAudio.cs",
+              "RelativeDocumentMoniker": "Assets\\SinglePlayAudio.cs",
+              "ToolTip": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\Assets\\SinglePlayAudio.cs",
+              "RelativeToolTip": "Assets\\SinglePlayAudio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T05:33:21.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "TutorialVoiceover.cs",
+              "DocumentMoniker": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\Assets\\TutorialVoiceover.cs",
+              "RelativeDocumentMoniker": "Assets\\TutorialVoiceover.cs",
+              "ToolTip": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\Assets\\TutorialVoiceover.cs",
+              "RelativeToolTip": "Assets\\TutorialVoiceover.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T05:19:29.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Sensitivity.cs",
               "DocumentMoniker": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\Assets\\Scripts\\UI\\Sensitivity.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Sensitivity.cs",
@@ -67,12 +101,11 @@
               "RelativeToolTip": "Assets\\Scripts\\UI\\Sensitivity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T18:52:15.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T18:52:15.429Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "SettingInGame.cs",
               "DocumentMoniker": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\Assets\\Scripts\\UI\\SettingInGame.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\SettingInGame.cs",
@@ -80,12 +113,11 @@
               "RelativeToolTip": "Assets\\Scripts\\UI\\SettingInGame.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T17:00:09.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T17:00:09.463Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "LaserFire.cs",
               "DocumentMoniker": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\Assets\\Scripts\\Weapon Scripts\\LaserFire.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Weapon Scripts\\LaserFire.cs",
@@ -97,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "TargetPracticeMini.cs",
               "DocumentMoniker": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\Assets\\Scripts\\Interactables\\TargetPracticeMini.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Interactables\\TargetPracticeMini.cs",
@@ -109,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "CameraMovement.cs",
               "DocumentMoniker": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\Assets\\Scripts\\Movement\\CameraMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Movement\\CameraMovement.cs",
@@ -121,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "PlayerCam.cs",
               "DocumentMoniker": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\Assets\\Scripts\\PlayerCam.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerCam.cs",
@@ -133,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "S:\\3rd Year CW\\Comp3000 - Final Year Project\\COMP3000-Game\\My project\\Assets\\Scripts\\Movement\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Movement\\PlayerMovement.cs",
@@ -141,8 +173,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Movement\\PlayerMovement.cs",
               "ViewState": "AQIAAG8AAAAAAAAAAAAwwI8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T02:52:53.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-11T02:52:53.692Z"
             }
           ]
         }
